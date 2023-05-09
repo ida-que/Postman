@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "abff40c1-5b87-4906-b9e0-ab2ceef3aa77",
+		"name": "Postman_homework_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20817276"
+	},
+	"item": [
+		{
+			"name": "Endpoint_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pm_hw_srv}}/get_method?name=Ida&age=25",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Ida"
+						},
+						{
+							"key": "age",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Jane",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "55",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "10000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{pm_hw_srv}}/user_info_3",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pm_hw_srv}}/object_info_1?name=John&age=47&weight=80",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "John"
+						},
+						{
+							"key": "age",
+							"value": "47"
+						},
+						{
+							"key": "weight",
+							"value": "80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pm_hw_srv}}/object_info_2?name=Christine&age=27&salary=5000",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Christine"
+						},
+						{
+							"key": "age",
+							"value": "27"
+						},
+						{
+							"key": "salary",
+							"value": "5000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pm_hw_srv}}/object_info_3?name=Edward&age=57&salary=10500",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Edward"
+						},
+						{
+							"key": "age",
+							"value": "57"
+						},
+						{
+							"key": "salary",
+							"value": "10500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{pm_hw_srv}}/object_info_4?name=Oscar&age=21&salary=4000",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Oscar"
+						},
+						{
+							"key": "age",
+							"value": "21"
+						},
+						{
+							"key": "salary",
+							"value": "4000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Richard",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "34",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "5000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{pm_hw_srv}}/user_info_2",
+					"host": [
+						"{{pm_hw_srv}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "pm_hw_srv",
+			"value": ""
+		}
+	]
+}
