@@ -1,0 +1,535 @@
+{
+	"id": "7e5830be-4ce2-4f80-b6d0-5ff7645e0712",
+	"name": "Postman_homework_2",
+	"timestamp": "2023-05-21T20:03:48.660Z",
+	"collection_id": "20817276-d823ff97-695c-454f-8ee0-1f16ec8b0f42",
+	"folder_id": 0,
+	"environment_id": "20817276-17e5dd6c-75c2-43c8-9bbd-234eeaa4c548",
+	"totalPass": 39,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-21T20:03:42.681Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9ac20f31-ab8b-49c0-9e8a-af8ff338e358",
+			"name": "first_tests",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 351,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				351
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "04b7ebe9-a8fc-4899-bd1b-82096793877b",
+			"name": "get_method",
+			"url": "http://162.55.220.72:5005/get_method?name=Ida&age=25",
+			"time": 333,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				333
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9a174c50-1637-4183-ba15-07e02ac0ca98",
+			"name": "user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 386,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				386
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "250b087a-b0f5-4120-9f3d-ea75b364e80d",
+			"name": "user_info_3_tests",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 331,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check user_name": true,
+				"Check user_age": true,
+				"Check user_salary": true,
+				"Name req-resp match": true,
+				"Age req-resp match": true,
+				"Salary req-resp match": true,
+				"User salary 1_5_year match to salary req": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check user_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check user_age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check user_salary": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User salary 1_5_year match to salary req": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				331
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check user_name": true,
+					"Check user_age": true,
+					"Check user_salary": true,
+					"Name req-resp match": true,
+					"Age req-resp match": true,
+					"Salary req-resp match": true,
+					"User salary 1_5_year match to salary req": true
+				}
+			]
+		},
+		{
+			"id": "814195f6-287c-4d8f-9b29-af02d64c88f5",
+			"name": "object_info_1",
+			"url": "http://162.55.220.72:5005/object_info_1?name=John&age=47&weight=80",
+			"time": 248,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				248
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2807467f-f2a6-4653-8779-74da52e32584",
+			"name": "object_info_2",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Christine&age=27&salary=5000",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				305
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "616adbea-5272-4b35-bbc3-42139856f38e",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Edward&age=57&salary=10500",
+			"time": 329,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				329
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "831abfe7-4479-4224-8bf7-8eab8c867961",
+			"name": "object_info_3_tests",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Edward&age=57&salary=10500",
+			"time": 317,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Name req-resp match": true,
+				"Age req-resp match": true,
+				"Salary req-resp match": true,
+				"Check dog's name presence": true,
+				"Check dog's name and age presence": true,
+				"Check dog's name is Luky": true,
+				"Check dog's age is 4 years old": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog's name presence": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog's name and age presence": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog's name is Luky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check dog's age is 4 years old": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				317
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Name req-resp match": true,
+					"Age req-resp match": true,
+					"Salary req-resp match": true,
+					"Check dog's name presence": true,
+					"Check dog's name and age presence": true,
+					"Check dog's name is Luky": true,
+					"Check dog's age is 4 years old": true
+				}
+			]
+		},
+		{
+			"id": "b7c77afe-1b57-4291-bc95-4d3fc9ceee46",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Oscar&age=21&salary=4000",
+			"time": 301,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				301
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b18c29bc-4c7f-4cd1-9ba3-b0f678006de3",
+			"name": "object_info_4_tests",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Oscar&age=21&salary=4000",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Name req-resp match": true,
+				"Age req-resp match": true,
+				"Salary and salary[0] req-resp match": true,
+				"Salary[1] correct calculation": true,
+				"Salary[2] correct calculation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Name req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Age req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary and salary[0] req-resp match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary[1] correct calculation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary[2] correct calculation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Name req-resp match": true,
+					"Age req-resp match": true,
+					"Salary and salary[0] req-resp match": true,
+					"Salary[1] correct calculation": true,
+					"Salary[2] correct calculation": true
+				}
+			]
+		},
+		{
+			"id": "02ba2f6f-8303-4e31-ac97-cb8d693edb1f",
+			"name": "user_info_2",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 286,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				286
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b9d0eef7-8400-4b34-992c-200927d0db30",
+			"name": "user_info_2_tests",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"start_qa_salary parameter is present in response": true,
+				"qa_salary_after_6_months parameter is present in response": true,
+				"qa_salary_after_12_months parameter is present in response": true,
+				"qa_salary_after_1.5_year parameter is present in response": true,
+				"qa_salary_after_3.5_years parameter is present in response": true,
+				"person parameter is present in response": true,
+				"Salary and start_qa_salary req-resp check": true,
+				"qa_salary_after_6_months calculation": true,
+				"qa_salary_after_12_months calculation": true,
+				"qa_salary_after_1.5_year calculation": true,
+				"qa_salary_after_3.5_years calculation": true,
+				"u_name[1] from resp is salary from req": true,
+				"age and u_age req-resp check": true,
+				"u_salary_5_years calculation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salary parameter is present in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_6_months parameter is present in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months parameter is present in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_1.5_year parameter is present in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_3.5_years parameter is present in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"person parameter is present in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Salary and start_qa_salary req-resp check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_6_months calculation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months calculation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_1.5_year calculation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_3.5_years calculation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_name[1] from resp is salary from req": {
+					"pass": 1,
+					"fail": 0
+				},
+				"age and u_age req-resp check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_salary_5_years calculation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"start_qa_salary parameter is present in response": true,
+					"qa_salary_after_6_months parameter is present in response": true,
+					"qa_salary_after_12_months parameter is present in response": true,
+					"qa_salary_after_1.5_year parameter is present in response": true,
+					"qa_salary_after_3.5_years parameter is present in response": true,
+					"person parameter is present in response": true,
+					"Salary and start_qa_salary req-resp check": true,
+					"qa_salary_after_6_months calculation": true,
+					"qa_salary_after_12_months calculation": true,
+					"qa_salary_after_1.5_year calculation": true,
+					"qa_salary_after_3.5_years calculation": true,
+					"u_name[1] from resp is salary from req": true,
+					"age and u_age req-resp check": true,
+					"u_salary_5_years calculation": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3687,
+	"collection": {
+		"requests": [
+			{
+				"id": "9ac20f31-ab8b-49c0-9e8a-af8ff338e358",
+				"method": "GET"
+			},
+			{
+				"id": "04b7ebe9-a8fc-4899-bd1b-82096793877b",
+				"method": "GET"
+			},
+			{
+				"id": "9a174c50-1637-4183-ba15-07e02ac0ca98",
+				"method": "POST"
+			},
+			{
+				"id": "250b087a-b0f5-4120-9f3d-ea75b364e80d",
+				"method": "POST"
+			},
+			{
+				"id": "814195f6-287c-4d8f-9b29-af02d64c88f5",
+				"method": "GET"
+			},
+			{
+				"id": "2807467f-f2a6-4653-8779-74da52e32584",
+				"method": "GET"
+			},
+			{
+				"id": "616adbea-5272-4b35-bbc3-42139856f38e",
+				"method": "GET"
+			},
+			{
+				"id": "831abfe7-4479-4224-8bf7-8eab8c867961",
+				"method": "GET"
+			},
+			{
+				"id": "b7c77afe-1b57-4291-bc95-4d3fc9ceee46",
+				"method": "GET"
+			},
+			{
+				"id": "b18c29bc-4c7f-4cd1-9ba3-b0f678006de3",
+				"method": "GET"
+			},
+			{
+				"id": "02ba2f6f-8303-4e31-ac97-cb8d693edb1f",
+				"method": "POST"
+			},
+			{
+				"id": "b9d0eef7-8400-4b34-992c-200927d0db30",
+				"method": "POST"
+			}
+		]
+	}
+}
